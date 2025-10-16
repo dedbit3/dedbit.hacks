@@ -1,1 +1,6 @@
 .trash/*
+.obsidian
+.git
+.github
+.gitignore
+
