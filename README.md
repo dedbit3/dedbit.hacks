@@ -1,23 +1,26 @@
-# Obsidian / Quartz / GitHub Pages Template
+# About
 
-Deployed URL: https://defenderofbasic.github.io/obsidian-quartz-template
+This site/repo is my personal pentesting portfolio. It contains methodical, hands-on writeups of capture-the-flag style labs, red-team exercises, and personal projects. Each write-up aims to teach both _how_ an issue was found and _how_ to detect and remediate it.
 
-Template for hosting your Obsidian notebook on GitHub pages with CI deployment. 
+Purpose: learn, teach, and demonstrate, security work.
 
-## Basic setup
+## What’s in this repo
 
-Full tutorial with screenshots & videos: https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1. 
+- `writeups/` — step-by-step guides for individual targets (recon → exploitation → post-exploitation → remediation).
+    
+- `toolbox/` — scripts, helpers, and PoCs used in the writeups.
+    
+- `detection/` — Sigma rules, YARA, Snort/Suricata signatures, and SIEM detection ideas derived from findings.
+    
+- `notes/` — short, focused posts on techniques (e.g., AD abuse, Kerberos, C2, phishing).
+    
+- `assets/` — screenshots, pcap extracts, and diagrams used in posts.
+    
+- `README.md` — this file.
 
-It's basically (1) fork this (2) go to repo's "Settings" > "Pages", Under "Build and Deployment" select GitHub Actions. Then go to "Actions" and enable GitHub actions for your fork. Edit the pages in [source/content](./source/content) with Obsidian or any text editor. It generates HTML using [Quartz](https://github.com/jackyzha0/quartz). To generate the HTML locally, run `npx quartz build --serve` in `./source/`
+> All artifacts are intentionally stripped of identifying data and never include private keys, stolen data, or any illegal content.
 
-## Raw HTML pages
+## Responsible disclosure & legal
 
-There is a [source/raw_html](./source/raw_html) folder that gets copied into the build folder in CI. This lets you host arbitrary HTML outside of quartz. Example: https://defenderofbasic.github.io/obsidian-quartz-template/raw-html-test.html
-
-I made the "raw HTML" option for people who are generating HTML UI's with Claude/ChatGPT but want to tweak them/host them themselves. Or make a personal archive of web pages, etc.
-
-## Further customization
-
-> Quartz is meant to be extremely configurable, even if you don’t know any coding. Most of the configuration you should need can be done by just editing quartz.config.ts or changing the layout in quartz.layout.ts.
-
-https://quartz.jzhao.xyz/configuration
+- Do **not** use any technique or code here on systems you do not own or have explicit permission to test. Unauthorized testing is illegal.
+- Practice only in authorized labs or explicit engagements.
