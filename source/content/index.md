@@ -2,7 +2,7 @@
 title: About Me
 ---
 
-![[Pasted image 20251027165453.png]]
+![[rat.png]]
 
 
 Hello I’m Edu, a Cybersecurity and Network Engineering student at Purdue University. I’m passionate about exploring emerging technologies and frameworks through a security-first lens. I’m particularly interested in red teaming, penetration testing, and malware reverse engineering, and I enjoy writing code here and there to automate workflows, build tooling, and solve practical problems.
