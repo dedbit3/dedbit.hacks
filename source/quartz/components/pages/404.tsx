@@ -12,11 +12,12 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
       <p>{i18n(cfg.locale).pages.error.notFound}</p>
       <a href={baseDir}>{i18n(cfg.locale).pages.error.home}</a>
     </article>
+  )
+}
+
     <p align="center">
-      <img src="./img/sadRat.gif" alt="Rat" width="35%">
+      <img src="./img/sadRat.gif" alt="Rat" width="50%">
       Why r you trying to fuzz?
     </p>
-)
-}
 
 export default (() => NotFound) satisfies QuartzComponentConstructor
