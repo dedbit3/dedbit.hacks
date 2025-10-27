@@ -7,27 +7,27 @@ interface Options {
   links: Record<string, string>
 }
 
-//#region uexport default ((opts?: Options) => {
-//#region u  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
-//#region u    const year = new Date().getFullYear()
-//#region u    const links = opts?.links ?? []
-//#region u    return (
-//#region u      <footer class={`${displayClass ?? ""}`}>
-//#region u        <p>
-//#region u          {i18n(cfg.locale).components.footer.createdWith}{" "}
-//#region u          <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
-//#region u        </p>
-//#region u        <ul>
-//#region u          {Object.entries(links).map(([text, link]) => (
-//#region u            <li>
-//#region u              <a href={link}>{text}</a>
-//#region u            </li>
-//#region u          ))}
-//#region u        </ul>
-//#region u      </footer>
-//#region u    )
-//#region u  }
-//#region u
-//#region u  Footer.css = style
-//#region u  return Footer
-//#region u}) satisfies QuartzComponentConstructor
+export default ((opts?: Options) => {
+  const Footer: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+    const year = new Date().getFullYear()
+    const links = opts?.links ?? []
+    return //(
+      //<footer class={`${displayClass ?? ""}`}>
+      //  <p>
+      //    {i18n(cfg.locale).components.footer.createdWith}{" "}
+      //    <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
+      //  </p>
+      //  <ul>
+      //    {Object.entries(links).map(([text, link]) => (
+      //      <li>
+      //        <a href={link}>{text}</a>
+      //      </li>
+      //    ))}
+      //  </ul>
+      //</footer>
+    //)
+  }
+
+  Footer.css = style
+  return Footer
+}) satisfies QuartzComponentConstructor
