@@ -1,9 +1,9 @@
 ---
-title: About Me
+title: Welcome! - @About Me
 ---
 
 <p align="center">
-  <img src="./img/rat.png" alt="Rat" width="60%">
+  <img src="./img/rat.png" alt="Rat" width="40%">
 </p>
 
 Hello I’m Edu, a Cybersecurity and Network Engineering student at Purdue University. I’m passionate about exploring emerging technologies and frameworks through a security-first lens. I’m particularly interested in red teaming, penetration testing, and malware reverse engineering, and I enjoy writing code here and there to automate workflows, build tooling, and solve practical problems.
