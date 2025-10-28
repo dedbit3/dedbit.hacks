@@ -10,18 +10,18 @@ fileClass: Machine
 
 ## Metadata
 
-|                       |   |
-| ----------------      | - |
-| ID                    |634 |
-| Name                  |Administrator |
-| Active                |✅  |
-| User Flag             |✅ |
-| Root Flag             |✅|
-| Difficulty Text       |Medium  |
-| Stars                 |⭐️ 4.7 |
-| Created Note          |08/04/25 |
-| Published             |11/09/24 |
-| tags                  |#Group_Membership #Misconfiguration #Powershell #SMB #FTP #Kerberos #WinRM #Reconnaissance #Password_Cracking #Kerberoasting #Active_Directory #Protocols #Common_Services #Security_Tools #Enterprise_Network #Vulnerability_Assessment  |
+|                 |                                                                                                                                                                                                                                          |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ID              | 634                                                                                                                                                                                                                                      |
+| Name            | Administrator                                                                                                                                                                                                                            |
+| Active          | ✅                                                                                                                                                                                                                                        |
+| User Flag       | ✅                                                                                                                                                                                                                                        |
+| Root Flag       | ✅                                                                                                                                                                                                                                        |
+| Difficulty Text | Medium                                                                                                                                                                                                                                   |
+| Stars           | ⭐️ 4.7                                                                                                                                                                                                                                   |
+| Created Note    | 08/04/25                                                                                                                                                                                                                                 |
+| Published       | 11/09/24                                                                                                                                                                                                                                 |
+| tags            | #Group_Membership #Misconfiguration #Powershell #SMB #FTP #Kerberos #WinRM #Reconnaissance #Password_Cracking #Kerberoasting #Active_Directory #Protocols #Common_Services #Security_Tools #Enterprise_Network #Vulnerability_Assessment |
 
 <p style = "display:none">
 id:: 634

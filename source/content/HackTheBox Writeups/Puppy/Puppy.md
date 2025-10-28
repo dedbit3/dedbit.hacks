@@ -3,12 +3,10 @@
 fileClass: Machine
 ---
 
-<p align="center"> <img src= "https://www.hackthebox.com//avatars/6a127b39657062e42c1a8dfdcd23475d.png"> </p>
-
 #machine
 
 ## Operation system - Windows
-<img style = "max-width:70px" src = "app://local//home/ew/apps/HTNotes/HTB/.res/Windows.png">
+<img style = "max-width:70px" src = "/img/Windows.png">
 
 ## Metadata
 
