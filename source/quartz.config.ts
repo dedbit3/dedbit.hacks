@@ -52,16 +52,6 @@ const config: QuartzConfig = {
 				},
 			},
 		},
-		// added this for graph
-		graph: {
-			enable: true,
-			localGraph: {
-				enable: true, // optional, disable local if you only want global
-			},
-			globalGraph: {
-				enable: true,
-			},
-		},
 	},
 	plugins: {
 		transformers: [
@@ -97,7 +87,6 @@ const config: QuartzConfig = {
 			Plugin.Assets(),
 			Plugin.Static(),
 			Plugin.NotFoundPage(),
-      Plugin.Graph(),
 		],
 	},
 };
