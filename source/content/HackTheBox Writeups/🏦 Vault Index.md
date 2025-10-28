@@ -3,38 +3,38 @@
 
 ## Machines in vault
 
-|Name31|Avatar|Difficulty|Stars|OS|
-|---|---|---|---|---|
-|[TheFrizz](app://obsidian.md/Machines/TheFrizz/TheFrizz.md)|![](https://www.hackthebox.com//avatars/c91ef1b641cf88156c7a9d3793d54216.png)|Medium|⭐️ 2.4|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[UnderPass](app://obsidian.md/Machines/UnderPass/UnderPass.md)|![](https://www.hackthebox.com//avatars/456a4d2e52f182847fb0a2dba0420a44.png)|Easy|⭐️ 3.8|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Voleur](app://obsidian.md/Machines/Voleur/Voleur.md)|![](https://www.hackthebox.com//avatars/635619778e50cc8f69df91cc6ae149c4.png)|Medium|⭐️ 4.8|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[TombWatcher](app://obsidian.md/Machines/TombWatcher/TombWatcher.md)|![](https://www.hackthebox.com//avatars/59c74a969b4fec16cd8072d253ca9917.png)|Medium|⭐️ 4.5|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[Support](app://obsidian.md/Machines/Support/Support.md)|![](https://www.hackthebox.com//avatars/833a3b1f7f96b5708d19b6de084c3201.png)|Easy|⭐️ 4.6|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[Titanic](app://obsidian.md/Machines/Titanic/Titanic.md)|![](https://www.hackthebox.com//avatars/eb5942ec56dd9b6feb06dcf8af8aefc6.png)|Easy|⭐️ 4.2|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Timelapse](app://obsidian.md/Machines/Timelapse/Timelapse.md)|![](https://www.hackthebox.com//avatars/bae443f73a706fc8eebc6fb740128295.png)|Easy|⭐️ 4.6|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[Strutted](app://obsidian.md/Machines/Strutted/Strutted.md)|![](https://www.hackthebox.com//avatars/cb2df0a9511e5634451e3fb6c8ddc509.png)|Medium|⭐️ 4.7|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Sightless](app://obsidian.md/Machines/Sightless/Sightless.md)|![](https://www.hackthebox.com//avatars/f96160a20e9cf0138885238444b47404.png)|Easy|⭐️ 3.5|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Sea](app://obsidian.md/Machines/Sea/Sea.md)|![](https://www.hackthebox.com//avatars/0011f6725aed869f8683589cb08c90d0.png)|Easy|⭐️ 3.5|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Planning](app://obsidian.md/Machines/Planning/Planning.md)|![](https://www.hackthebox.com//avatars/c9efb253e7d1d9b407113e11afdaa905.png)|Easy|⭐️ 3.8|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Outbound](app://obsidian.md/Machines/Outbound/Outbound.md)|![](https://www.hackthebox.com//avatars/b1096fc86df3fb6035baad7f599094be.png)|Easy|⭐️ 3.6|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Puppy](app://obsidian.md/Machines/Puppy/Puppy.md)|![](https://www.hackthebox.com//avatars/6a127b39657062e42c1a8dfdcd23475d.png)|Medium|⭐️ 4.8|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[PermX](app://obsidian.md/Machines/PermX/PermX.md)|![](https://www.hackthebox.com//avatars/3ec233f1bf70b096a66f8a452e7cd52f.png)|Easy|⭐️ 4.6|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[LinkVortex](app://obsidian.md/Machines/LinkVortex/LinkVortex.md)|![](https://www.hackthebox.com//avatars/97f12db8fafed028448e29e30be7efac.png)|Easy|⭐️ 4.3|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Nocturnal](app://obsidian.md/Machines/Nocturnal/Nocturnal.md)|![](https://www.hackthebox.com//avatars/f6a56cec6e9826b4ed124fb4155abc66.png)|Easy|⭐️ 3.8|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Fluffy](app://obsidian.md/Machines/Fluffy/Fluffy.md)|![](https://www.hackthebox.com//avatars/ef8fc92ac7cccd8afa4412241432f064.png)|Easy|⭐️ 4.4|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[EscapeTwo](app://obsidian.md/Machines/EscapeTwo/EscapeTwo.md)|![](https://www.hackthebox.com//avatars/d5fcf2425893a73cf137284e2de580e1.png)|Easy|⭐️ 4.4|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[Era](app://obsidian.md/Machines/Era/Era.md)|![](https://www.hackthebox.com//avatars/fcd00b2542a936e4281ba19e0bd0b025.png)|Medium|⭐️ 3.1|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Editorial](app://obsidian.md/Machines/Editorial/Editorial.md)|![](https://www.hackthebox.com//avatars/a466db5ce4f7aaea98f588d1cb71a0aa.png)|Easy|⭐️ 4.3|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Editor](app://obsidian.md/Machines/Editor/Editor.md)|![](https://www.hackthebox.com//avatars/ba9dec0d022d3c3b6a96aa5dba4772c7.png)|Easy|⭐️ 3.8|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Environment](app://obsidian.md/Machines/Environment/Environment.md)|![](https://www.hackthebox.com//avatars/757eeb9b0f530e71875f0219d0d477e4.png)|Medium|⭐️ 4.1|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Chemistry](app://obsidian.md/Machines/Chemistry/Chemistry.md)|![](https://www.hackthebox.com//avatars/b8f3d660af2d3ed0929eb119e33526cf.png)|Easy|⭐️ 4.4|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Cypher](app://obsidian.md/Machines/Cypher/Cypher.md)|![](https://www.hackthebox.com//avatars/765cd4be6f3a366ca83c7ea60bbcaaa8.png)|Medium|⭐️ 4.3|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Dog](app://obsidian.md/Machines/Dog/Dog.md)|![](https://www.hackthebox.com//avatars/426830ea2ae4f05f7892ad89195f8276.png)|Easy|⭐️ 3.8|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Cap](app://obsidian.md/Machines/Cap/Cap.md)|![](https://www.hackthebox.com//avatars/70ea3357a2d090af11a0953ec8717e90.png)|Easy|⭐️ 4.5|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Alert](app://obsidian.md/Machines/Alert/Alert.md)|![](https://www.hackthebox.com//avatars/6f4647030d6aadc676b8d8a459de344f.png)|Easy|⭐️ 4.3|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Code](app://obsidian.md/Machines/Code/Code.md)|![](https://www.hackthebox.com//avatars/55cc3528cd7ad96f67c4f0c715efe286.png)|Easy|⭐️ 4|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Cicada](app://obsidian.md/Machines/Cicada/Cicada.md)|![](https://www.hackthebox.com//avatars/79616a32a057e5e672dadb51bb96dd04.png)|Easy|⭐️ 4.6|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
-|[Artificial](app://obsidian.md/Machines/Artificial/Artificial.md)|![](https://www.hackthebox.com//avatars/e6633d6c2b1d824c3756eb21aeed7590.png)|Easy|⭐️ 4.2|![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)|
-|[Administrator](app://obsidian.md/Machines/Administrator/Administrator.md)|![](https://www.hackthebox.com//avatars/9d232b1558b7543c7cb85f2774687363.png)|Medium|⭐️ 4.7|![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png)|
+| Name31                                                       | Avatar                                                                        | Difficulty | Stars  | OS                                                           |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------- | ---------- | ------ | ------------------------------------------------------------ |
+| [TheFrizz](/HackTheBox-Writeups/TheFrizz/Notes.md)           | ![](https://www.hackthebox.com//avatars/c91ef1b641cf88156c7a9d3793d54216.png) | Medium     | ⭐️ 2.4 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [UnderPass](/HackTheBox-Writeups/UnderPass/Notes.md)         | ![](https://www.hackthebox.com//avatars/456a4d2e52f182847fb0a2dba0420a44.png) | Easy       | ⭐️ 3.8 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Voleur](/HackTheBox-Writeups/Voleur/Notes.md)               | ![](https://www.hackthebox.com//avatars/635619778e50cc8f69df91cc6ae149c4.png) | Medium     | ⭐️ 4.8 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [TombWatcher](/HackTheBox-Writeups/TombWatcher/Notes.md)     | ![](https://www.hackthebox.com//avatars/59c74a969b4fec16cd8072d253ca9917.png) | Medium     | ⭐️ 4.5 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [Support](/HackTheBox-Writeups/Support/Notes.md)             | ![](https://www.hackthebox.com//avatars/833a3b1f7f96b5708d19b6de084c3201.png) | Easy       | ⭐️ 4.6 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [Titanic](/HackTheBox-Writeups/Titanic/Notes.md)             | ![](https://www.hackthebox.com//avatars/eb5942ec56dd9b6feb06dcf8af8aefc6.png) | Easy       | ⭐️ 4.2 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Timelapse](/HackTheBox-Writeups/Timelapse/Notes.md)         | ![](https://www.hackthebox.com//avatars/bae443f73a706fc8eebc6fb740128295.png) | Easy       | ⭐️ 4.6 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [Strutted](/HackTheBox-Writeups/Strutted/Notes.md)           | ![](https://www.hackthebox.com//avatars/cb2df0a9511e5634451e3fb6c8ddc509.png) | Medium     | ⭐️ 4.7 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Sightless](/HackTheBox-Writeups/Sightless/Notes.md)         | ![](https://www.hackthebox.com//avatars/f96160a20e9cf0138885238444b47404.png) | Easy       | ⭐️ 3.5 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Sea](/HackTheBox-Writeups/Sea/Notes.md)                     | ![](https://www.hackthebox.com//avatars/0011f6725aed869f8683589cb08c90d0.png) | Easy       | ⭐️ 3.5 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Planning](/HackTheBox-Writeups/Planning/Notes.md)           | ![](https://www.hackthebox.com//avatars/c9efb253e7d1d9b407113e11afdaa905.png) | Easy       | ⭐️ 3.8 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Outbound](/HackTheBox-Writeups/Outbound/Notes.md)           | ![](https://www.hackthebox.com//avatars/b1096fc86df3fb6035baad7f599094be.png) | Easy       | ⭐️ 3.6 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Puppy](/HackTheBox-Writeups/Notes.md)                       | ![](https://www.hackthebox.com//avatars/6a127b39657062e42c1a8dfdcd23475d.png) | Medium     | ⭐️ 4.8 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [PermX](/HackTheBox-Writeups/PermX/Notes.md)                 | ![](https://www.hackthebox.com//avatars/3ec233f1bf70b096a66f8a452e7cd52f.png) | Easy       | ⭐️ 4.6 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [LinkVortex](/HackTheBox-Writeups/LinkVortex/Notes.md)       | ![](https://www.hackthebox.com//avatars/97f12db8fafed028448e29e30be7efac.png) | Easy       | ⭐️ 4.3 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Nocturnal](/HackTheBox-Writeups/Nocturnal/Notes.md)         | ![](https://www.hackthebox.com//avatars/f6a56cec6e9826b4ed124fb4155abc66.png) | Easy       | ⭐️ 3.8 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Fluffy](/HackTheBox-Writeups/Fluffy/Notes.md)               | ![](https://www.hackthebox.com//avatars/ef8fc92ac7cccd8afa4412241432f064.png) | Easy       | ⭐️ 4.4 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [EscapeTwo](/HackTheBox-Writeups/EscapeTwo/Notes.md)         | ![](https://www.hackthebox.com//avatars/d5fcf2425893a73cf137284e2de580e1.png) | Easy       | ⭐️ 4.4 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [Era](/HackTheBox-Writeups/Era/Notes.md)                     | ![](https://www.hackthebox.com//avatars/fcd00b2542a936e4281ba19e0bd0b025.png) | Medium     | ⭐️ 3.1 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Editorial](/HackTheBox-Writeups/Editorial/Notes.md)         | ![](https://www.hackthebox.com//avatars/a466db5ce4f7aaea98f588d1cb71a0aa.png) | Easy       | ⭐️ 4.3 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Editor](/HackTheBox-Writeups/Editor/Notes.md)               | ![](https://www.hackthebox.com//avatars/ba9dec0d022d3c3b6a96aa5dba4772c7.png) | Easy       | ⭐️ 3.8 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Environment](/HackTheBox-Writeups/Environment/Notes.md)     | ![](https://www.hackthebox.com//avatars/757eeb9b0f530e71875f0219d0d477e4.png) | Medium     | ⭐️ 4.1 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Chemistry](/HackTheBox-Writeups/Chemistry/Notes.md)         | ![](https://www.hackthebox.com//avatars/b8f3d660af2d3ed0929eb119e33526cf.png) | Easy       | ⭐️ 4.4 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Cypher](/HackTheBox-Writeups/Cypher/Notes.md)               | ![](https://www.hackthebox.com//avatars/765cd4be6f3a366ca83c7ea60bbcaaa8.png) | Medium     | ⭐️ 4.3 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Dog](/HackTheBox-Writeups/Dog/Notes.md)                     | ![](https://www.hackthebox.com//avatars/426830ea2ae4f05f7892ad89195f8276.png) | Easy       | ⭐️ 3.8 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Cap](/HackTheBox-Writeups/Cap/Notes.md)                     | ![](https://www.hackthebox.com//avatars/70ea3357a2d090af11a0953ec8717e90.png) | Easy       | ⭐️ 4.5 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Alert](/HackTheBox-Writeups/Alert/Notes.md)                 | ![](https://www.hackthebox.com//avatars/6f4647030d6aadc676b8d8a459de344f.png) | Easy       | ⭐️ 4.3 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Code](/HackTheBox-Writeups/Code/Notes.md)                   | ![](https://www.hackthebox.com//avatars/55cc3528cd7ad96f67c4f0c715efe286.png) | Easy       | ⭐️ 4   | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Cicada](/HackTheBox-Writeups/Cicada/Notes.md)               | ![](https://www.hackthebox.com//avatars/79616a32a057e5e672dadb51bb96dd04.png) | Easy       | ⭐️ 4.6 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
+| [Artificial](/HackTheBox-Writeups/Artificial/Notes.md)       | ![](https://www.hackthebox.com//avatars/e6633d6c2b1d824c3756eb21aeed7590.png) | Easy       | ⭐️ 4.2 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Linux.png)   |
+| [Administrator](/HackTheBox-Writeups/Administrator/Notes.md) | ![](https://www.hackthebox.com//avatars/9d232b1558b7543c7cb85f2774687363.png) | Medium     | ⭐️ 4.7 | ![](app://local///home/ew/apps/HTNotes/HTB/.res/Windows.png) |
 
 ----------------------
