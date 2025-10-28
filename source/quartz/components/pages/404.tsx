@@ -7,7 +7,7 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
   const baseDir = url.pathname
 
   return (
-    <article class="popover-hint">
+    <article style={{ textAlign: "center" }} class="popover-hint">
       <h1 style={{ textAlign: "center" }}>404</h1>
       <p style={{ textAlign: "center" }}>
         <img src="./img/sadRat.gif" alt="Rat" width="50%" />
