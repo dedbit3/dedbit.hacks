@@ -91,4 +91,18 @@ const config: QuartzConfig = {
   },
 }
 
+
+// added this for graph
+export const graph = {
+  enable: true,
+  localGraph: {
+    enable: true,
+  },
+  globalGraph: {
+    enable: true,
+  },
+}
+
+
+
 export default config
