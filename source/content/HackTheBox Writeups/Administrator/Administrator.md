@@ -6,7 +6,7 @@ fileClass: Machine
 #machine
 
 ## Operation system - Windows
-<img style = "max-width:70px" src = "app://img/Windows.png">
+<img style = "max-width:70px" src = "/img/Windows.png">
 
 ## Metadata
 
