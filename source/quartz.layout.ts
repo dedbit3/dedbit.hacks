@@ -32,6 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
+    // added this for graph
     Component.Graph({
       graph: {
         localGraph: true,
