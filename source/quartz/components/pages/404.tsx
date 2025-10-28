@@ -10,7 +10,7 @@ const NotFound: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
     <article style={{ textAlign: "center" }} class="popover-hint">
       <h1 style={{ textAlign: "center" }}>404</h1>
       <p style={{ textAlign: "center" }}>
-        <img src="./img/sadRat.gif" alt="Rat" width="50%" />
+        <img src="/img/sadRat.gif" alt="Rat" width="50%" />
       </p>
       <p style={{ textAlign: "center" }}>Why u trynna fuzz?</p>
       <p style={{ textAlign: "center" }}>{i18n(cfg.locale).pages.error.notFound}</p>
