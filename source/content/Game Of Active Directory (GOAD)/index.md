@@ -1,2 +1,2 @@
 
-test index
+GOAD folder index
