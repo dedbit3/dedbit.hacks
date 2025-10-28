@@ -5,7 +5,7 @@
 
 ## Machines in vault
 
-| Name31                                                       | Avatar                                                                        | Difficulty | Stars  | OS                    |
+| Name                                                         | Avatar                                                                        | Difficulty | Stars  | OS                    |
 | ------------------------------------------------------------ | ----------------------------------------------------------------------------- | ---------- | ------ | --------------------- |
 | [TheFrizz](/HackTheBox-Writeups/TheFrizz/Notes.md)           | ![](https://www.hackthebox.com//avatars/c91ef1b641cf88156c7a9d3793d54216.png) | Medium     | ⭐️ 2.4 | ![](/img/Windows.png) |
 | [UnderPass](/HackTheBox-Writeups/UnderPass/Notes.md)         | ![](https://www.hackthebox.com//avatars/456a4d2e52f182847fb0a2dba0420a44.png) | Easy       | ⭐️ 3.8 | ![](/img/Linux.png)   |
