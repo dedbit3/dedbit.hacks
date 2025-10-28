@@ -34,7 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Graph({
       graph: {
-        localGraph: true,
+        localGraph: false,
         globalGraph: true,
       },
     }),
