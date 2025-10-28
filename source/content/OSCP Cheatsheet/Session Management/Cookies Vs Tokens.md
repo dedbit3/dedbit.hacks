@@ -1,3 +1,4 @@
+___
 
 
 The last topic to cover before diving into session management security is the type of sessions being used. The two main approaches are cookies and tokens, each with its own benefits and drawbacks.

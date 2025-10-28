@@ -1,3 +1,4 @@
+___
 
 
 JWTs are self-contained tokens that can be used to securely transmit session information. It is an [open standard](https://tools.ietf.org/html/rfc7519), providing information for any developer or library creator who wants to use JWTs. The JWT structure is shown in the animation below:

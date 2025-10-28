@@ -1,6 +1,7 @@
+___
 
 
-# intro
+# Intro
 
 With advancements in cyber security, many developers have adopted object-relational mapping (ORM) to mitigate SQL injection attacks. While ORM is intended to simplify database interactions and improve security, the threat of injection attacks is still not over. ORM injection occurs when attackers exploit vulnerabilities within ORM frameworks, allowing them to execute arbitrary queries. We will explore advanced ORM injection techniques in this room, providing an in-depth understanding of sophisticated attack vectors and effective mitigation strategies.  
 
