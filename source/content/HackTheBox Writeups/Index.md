@@ -7,31 +7,89 @@ Hack The Box: Notes Index
 
 Here are all pages in this folder:
 
-```
-```{{<folder-index>}}
-
-
-{{< folder-tree path="/HackTheBox-Writeups" depth=2 >}}
-{{< folder-tree path="/HackTheBox-Writeups" depth=2 >}}```
-
-```
-
-{{<folder-tree path="/HackTheBox-Writeups" depth=2>}}
-
-test here
-
-{{<folder-tree path="./" depth=2>}}
-
-
-
-{{<folder-tree path="/HackTheBox-Writeups/" depth=2>}}
-
-
-/home/ew/apps/dedbit.hacks/dedbit.hacks/source/content/HackTheBox Writeups/Administrator/Notes.md
-
-
-
-{{<folder-tree path="/HackTheBox Writeups" depth=2>}}
-
+[[/HackTheBox Writeups/🧭 README]]
+[[/HackTheBox Writeups/🏦 Vault Index]]
+[[/HackTheBox Writeups/Index]]
+[[/HackTheBox Writeups/Administrator/Administrator]]
+[[/HackTheBox Writeups/Administrator/Notes]]
+[[/HackTheBox Writeups/Alert/Alert]]
+[[/HackTheBox Writeups/Alert/Notes]]
+[[/HackTheBox Writeups/Artificial/Artificial]]
+[[/HackTheBox Writeups/Artificial/Notes]]
+[[/HackTheBox Writeups/Backfire/Backfire]]
+[[/HackTheBox Writeups/Cap/Cap]]
+[[/HackTheBox Writeups/Cap/Notes]]
+[[/HackTheBox Writeups/Cat/Cat]]
+[[/HackTheBox Writeups/Certified/Notes]]
+[[/HackTheBox Writeups/Chemistry/Chemistry]]
+[[/HackTheBox Writeups/Chemistry/Notes]]
+[[/HackTheBox Writeups/Cicada/Cicada]]
+[[/HackTheBox Writeups/Cicada/Notes]]
+[[/HackTheBox Writeups/Code/Code]]
+[[/HackTheBox Writeups/Code/Notes]]
+[[/HackTheBox Writeups/CodeTwo/CodeTwo]]
+[[/HackTheBox Writeups/Compiled/Notes]]
+[[/HackTheBox Writeups/CroccCrew/Notes]]
+[[/HackTheBox Writeups/Cypher/Cypher]]
+[[/HackTheBox Writeups/Cypher/Notes]]
+[[/HackTheBox Writeups/DarkZero/Notes]]
+[[/HackTheBox Writeups/Dog/Dog]]
+[[/HackTheBox Writeups/Dog/Notes]]
+[[/HackTheBox Writeups/Editor/Editor]]
+[[/HackTheBox Writeups/Editor/Notes]]
+[[/HackTheBox Writeups/Editorial/Editorial]]
+[[/HackTheBox Writeups/Editorial/Notes]]
+[[/HackTheBox Writeups/Environment/Environment]]
+[[/HackTheBox Writeups/Environment/Notes]]
+[[/HackTheBox Writeups/Era/Era]]
+[[/HackTheBox Writeups/Era/Notes]]
+[[/HackTheBox Writeups/EscapeTwo/EscapeTwo]]
+[[/HackTheBox Writeups/EscapeTwo/Notes]]
+[[/HackTheBox Writeups/Expressway/Notes]]
+[[/HackTheBox Writeups/Fluffy/Fluffy]]
+[[/HackTheBox Writeups/Fluffy/Notes]]
+[[/HackTheBox Writeups/Hacknet/Notes]]
+[[/HackTheBox Writeups/Hammer/Notest]]
+[[/HackTheBox Writeups/Heal/Heal]]
+[[/HackTheBox Writeups/Instant/Notes]]
+[[/HackTheBox Writeups/Jab/Notes]]
+[[/HackTheBox Writeups/LinkVortex/LinkVortex]]
+[[/HackTheBox Writeups/LinkVortex/Notes]]
+[[/HackTheBox Writeups/Nocturnal/Nocturnal]]
+[[/HackTheBox Writeups/Nocturnal/Notes]]
+[[/HackTheBox Writeups/Outbound/Outbound]]
+[[/HackTheBox Writeups/Outbound/Notes]]
+[[/HackTheBox Writeups/PermX/PermX]]
+[[/HackTheBox Writeups/PermX/Notes]]
+[[/HackTheBox Writeups/Planning/Planning]]
+[[/HackTheBox Writeups/Planning/Notes]]
+[[/HackTheBox Writeups/Previous/Notes]]
+[[/HackTheBox Writeups/Puppy/Puppy]]
+[[/HackTheBox Writeups/Puppy/Notes]]
+[[/HackTheBox Writeups/Return/Return]]
+[[/HackTheBox Writeups/Sea/Sea]]
+[[/HackTheBox Writeups/Sea/Notes]]
+[[/HackTheBox Writeups/Sightless/Sightless]]
+[[/HackTheBox Writeups/Sightless/Notes]]
+[[/HackTheBox Writeups/SolarLab/Notes]]
+[[/HackTheBox Writeups/Soulmate/Notes]]
+[[/HackTheBox Writeups/Strutted/Strutted]]
+[[/HackTheBox Writeups/Strutted/Notes]]
+[[/HackTheBox Writeups/Support/Support]]
+[[/HackTheBox Writeups/Support/Notes]]
+[[/HackTheBox Writeups/TheFrizz/TheFrizz]]
+[[/HackTheBox Writeups/TheFrizz/Notes]]
+[[/HackTheBox Writeups/Titanic/Titanic]]
+[[/HackTheBox Writeups/Titanic/Notes]]
+[[/HackTheBox Writeups/TombWatcher/TombWatcher]]
+[[/HackTheBox Writeups/TombWatcher/Notes]]
+[[/HackTheBox Writeups/Trickster/Notes]]
+[[/HackTheBox Writeups/UnderPass/UnderPass]]
+[[/HackTheBox Writeups/UnderPass/Notes]]
+[[/HackTheBox Writeups/Unrested/Notes]]
+[[/HackTheBox Writeups/Voleur/Voleur]]
+[[/HackTheBox Writeups/Voleur/Notes]]
+[[/HackTheBox Writeups/Timelapse/Timelapse]]
+[[/HackTheBox Writeups/Timelapse/Notes]]
 
 
