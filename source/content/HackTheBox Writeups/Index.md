@@ -7,7 +7,17 @@ Hack The Box: Notes Index
 
 Here are all pages in this folder:
 
-{{<folder-index>}}
+```
+```{{<folder-index>}}
 
 
-{{< folder-tree path="content/notes" depth=2 >}}
+{{< folder-tree path="/HackTheBox-Writeups" depth=2 >}}
+{{< folder-tree path="/HackTheBox-Writeups" depth=2 >}}```
+
+```
+
+{{< folder-tree path="/HackTheBox-Writeups" depth=2 >}}
+
+test here
+
+{{< folder-tree path="./" depth=2 >}}
