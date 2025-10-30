@@ -7,4 +7,5 @@ Tools: Notes Index
 
 Here are all the listings in this folder:
 
-
+[[/Tools/Index]]
+[[/Tools/GitRepos]]
