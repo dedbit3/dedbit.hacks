@@ -1,7 +1,9 @@
 ___
 
 
-these run on UDP ports so UDP scan the machine
+*UDP Scans necessary to identify IKE VPN services running on machine*
+
+These are really good sources that go into more detail
 
 https://angelica.gitbook.io/hacktricks/network-services-pentesting/ipsec-ike-vpn-pentesting
 

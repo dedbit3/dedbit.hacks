@@ -30,9 +30,6 @@ if headers are being injected into the environment you can pass php script and
 User-Agent: <?php system($_GET['cmd']); ?>
 
 
-![[Pasted image 20250905185144.png]]
-
-
 
 *null byte can be used to bypass when .php is added to the end of the file for example*
 %00
@@ -57,8 +54,6 @@ The risk of RFI is higher than LFI since RFI vulnerabilities allow an atta
 - Denial of Service (DoS)
 
 An external server must communicate with the application server for a successful RFI attack where the attacker hosts malicious files on their server. Then the malicious file is injected into the include function via HTTP requests, and the content of the malicious file executes on the vulnerable application server.
-
-
 
 
 
