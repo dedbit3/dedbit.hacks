@@ -16,7 +16,6 @@ SLT can be used to facilitate XXE attacks in several ways:
 4. **Blind XXE**: XSLT can be used to perform blind XXE attacks, in which an attacker injects malicious entities without seeing the server's response.
 
 
-
 ### What are DTDs?
 
 DTDs or Document Type Definitions define the structure and constraints of an XML document. They specify the allowed elements, attributes, and relationships between them. DTDs can be internal within the XML document or external in a separate file.
