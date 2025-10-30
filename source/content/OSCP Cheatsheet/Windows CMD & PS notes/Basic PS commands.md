@@ -56,22 +56,23 @@ Get-LocalUser <- shows local users on the system
 Get-NetIPConfiguration <- ipconfig equivalent
 ```
 
-`Get-ComputerInfo <- more powerful eq of systeminfoGet-Service <- services are the equivalent of daemons on linux`
+`Get-ComputerInfo` <- more powerful eq of systeminfoGet-Service <- services are the equivalent of daemons on linux
 
-`Get-Process`
-`Get-NetTCPConnection`
-`Get-FileHash`
+Other Useful Cmdlets
+```
+Get-Process
+Get-NetTCPConnection
+Get-FileHash
+```
 
 Supports regex statements as well
 `Get-ChildItem | Where-Object -Property Length -gt 100`
 
-`WDAGUtilityAccount <- virtualized env for edge protects against malware pretty 
-cool`
+`WDAGUtilityAccount` <- virtualized environment for edge protects against malware pretty 
+cool
 
 *Interfaces Info*
-```powershell
-Get-NetIPAddress
-```
+`Get-NetIPAddress`
 
 
 # Invoke-Command
