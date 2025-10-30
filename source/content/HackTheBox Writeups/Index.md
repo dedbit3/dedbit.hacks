@@ -35,16 +35,3 @@ test here
 
 
 
-{{<folder-tree path="/HackTheBox Writeups/" depth=2>}}
-
-
-{{<folder-tree path="/HackTheBox Writeups/Administrator/" depth=2>}}
-
-
-
-{{<folder-tree path="content/HackTheBox Writeups" depth=2>}}
-
-content/HackTheBox Writeups
-
-
-{{<folder-tree path="./content/HackTheBox Writeups" depth=2>}}
