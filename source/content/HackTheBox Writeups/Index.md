@@ -5,7 +5,7 @@ Hack The Box: Notes Index
 
 # 📂 Notes Directory
 
-Here are all pages in this folder:
+Here are all the listings in this folder:
 
 [[/HackTheBox Writeups/🧭 README]]
 [[/HackTheBox Writeups/🏦 Vault Index]]
