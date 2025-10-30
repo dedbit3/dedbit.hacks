@@ -1,2 +1,0 @@
-
-GOAD folder index

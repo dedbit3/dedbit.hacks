@@ -1,7 +1,7 @@
 ___
 
 ## Nmap Summary
-
+```
 Not shown: 65532 closed tcp ports (reset)
 PORT      STATE    SERVICE REASON         VERSION
 22/tcp    open     ssh     syn-ack ttl 63 OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 (Ubuntu Linux; protocol 2.0)
@@ -36,9 +36,10 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 828.39 seconds
            Raw packets sent: 72313 (3.182MB) | Rcvd: 214538 (36.054MB)
 
+```
 
-# subdomain enum
-
+# Subdomain Enum
+```
  :: Method           : GET
  :: URL              : http://alert.htb
  :: Wordlist         : FUZZ: /home/ew/Documents/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt
@@ -54,31 +55,27 @@ ________________________________________________
 statistics              [Status: 401, Size: 467, Words: 42, Lines: 15, Duration: 193ms]
 :: Progress: [4989/4989] :: Job [1/1] :: 187 req/sec :: Duration: [0:00:30] :: Errors: 0 ::
 
+```
 
-# notes
+# Notes
 
-it doesn't seem vuln to LFI ( local file inclusion)
+It doesn't seem vuln to LFI ( local file inclusion)
 
-it is vulnerable to XSS and files with php code can be uploaded as well as js
+It is vulnerable to XSS and files with php code can be uploaded as well as js
 but it checks for .md extension which is annoying
-
 
 pages=messages is a page
 
-there is a post request there
+There is a post request there
 
-this is a php website
-
-
-# *from here down this is the new stuff*
-
+This is a php website
 
 stastics.alert.htb is a subdomain but need creds to log in 
 
 *ok it is vulnerable to XSS so what how shell from this*
 
 
-*bro the way to get here wtf fire tho ngl*
+ *the way to get here was crazy fire thogh ngl*
 
 <pre>root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
@@ -119,7 +116,6 @@ lxd:x:998:100::/var/snap/lxd/common/lxd:/bin/false
 david:x:1001:1002:,,,:/home/david:/bin/bash
 </pre>
 
-
 # 2 users here
 albert:x:1000:1000:albert:/home/albert:/bin/bash
 david:x:1001:1002:,,,:/home/david:/bin/bash
@@ -131,15 +127,15 @@ david:x:1001:1002:,,,:/home/david:/bin/bash
 [80][http-get] host: statistics.alert.htb   login: albert   password: manchesterunited
 
 
+So from here
 
-so from here
+In opt theres chrome and website-checker which is running on 8080 with a cronjob
 
-in opt thres chrome and website-checker wich is running on 8080 with a cronjob
-
-theres also the david user 
-
+There's also the david user 
 
 
+*Processes*
+```
 root         786  0.0  0.2 241368 11292 ?        Ssl  18:07   0:00 /usr/sbin/ModemManager
 root        1003  0.0  0.0   6816  3020 ?        Ss   18:08   0:00 /usr/sbin/cron -f
 root        1012  0.0  0.0   8360  3460 ?        S    18:08   0:00  _ /usr/sbin/CRON -f
@@ -155,8 +151,10 @@ root        1050  0.0  0.0   6892  1960 ?        S    18:08   0:00              
 root        1011  0.0  0.6 207256 26432 ?        Ss   18:08   0:00 /usr/bin/php -S 127.0.0.1:8080 -t /opt/website-monitor
 root        1024  0.0  0.5 396348 20872 ?        Ssl  18:08   0:02 /usr/bin/python3 /usr/bin/fail2ban-server -xf start
 
+```
 
-*theres a php bot checking the website-checker opt/website-monitor/config
+
+*Theres a php bot checking the website-checker opt/website-monitor/config
 
         AllowOverride All
         AuthType Basic
@@ -167,9 +165,9 @@ root        1024  0.0  0.5 396348 20872 ?        Ssl  18:08   0:02 /usr/bin/pyth
 
 *if I could somehow read this*
 
-look at the statistics website brother lmao
+Look at the statistics website brother lmao
 
-
+# Fail2ban
 
 *failtoban is running and there r hashes here*
 
@@ -205,26 +203,22 @@ username:wrongrelm:99cd340e1283c6d0ab34734bd47bdc30
 4105bbb04
 
 
-
 *this has SUID set*
 
 -rwsr-xr-x 1 root root 206K Mar  5  2024 /opt/google/chrome/chrome-sandbox
 
-
-*wtf this*
+*what is this*
 
 /var/crash/_opt_easywall_easywall_web_passwd.py.1000.crash
 
 *website monitor has .git*
-
-
 
 *cracked these 2 password from  failtoban directory got it form linpeas*
 
 ?:password
 ?:foo
 
-
+# Root
 
 *being part of the management group i could write to a php file in the website-monitor tool that was being ran by a bot running as root so then just put php rev shell code there and get root*
 
