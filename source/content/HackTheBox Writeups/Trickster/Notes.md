@@ -132,7 +132,7 @@ I imagine is probs adam the user
 
 
 
-app/config -> parameters.php file has a bunch of shit probs it
+app/config -> parameters.php file has a bunch of stuff probs it
 
 
 
@@ -159,7 +159,7 @@ damn wasn't that bad but took me a min
 
 -either crack more hashes for lateral movement
 -check what james owns on filesystem
--theres som bullshit on opt
+-theres som stuff on opt
 -connect to chrome port (idk tho that might b just box functionality)
 
 
@@ -199,7 +199,7 @@ not chrome debug port
 
 
 
-*changedetection.py wtf is this*
+*changedetection.py what is this*
 
 2025/09/20 21:16:59 CMD: UID=0    PID=11186  | python ./changedetection.py -d /datastore 
 
@@ -240,7 +240,7 @@ https://www.hacktivesecurity.com/blog/2024/05/08/cve-2024-32651-server-side-temp
  cat secret.txt
 5fce75c64d33acf05d2d3b21d29e693d992f240d5c440310cff3edfb743c64a5# 
 
-wtf is this
+what is this
 
 
 

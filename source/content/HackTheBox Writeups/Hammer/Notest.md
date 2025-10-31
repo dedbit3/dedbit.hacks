@@ -7,12 +7,9 @@ theres some versions and files its exposing on ferox
 I get a bunch of cookies on the reset_password.php -> like myphpadmin why
 
 
-
 *this is the library doing jwt stuff*
 firebase/php-jwt
 "v6.10.0"
-
-
 
 
 *hmr_logs directory*

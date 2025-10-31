@@ -176,7 +176,7 @@ now where tf are those being called to build the full POST request gotta find th
 
 
 
-*nice JWT fucking worked!!!!*
+*nice JWT  worked!!!!*
 
 HTTP/1.1 200 OK
 Date: Sat, 23 Aug 2025 01:28:10 GMT
@@ -343,7 +343,7 @@ swagger-ui.instant.htb
 
 
 
-*fuck me all the API documentation is here*
+*lol me all the API documentation is here*
 
 http://swagger-ui.instant.htb/apidocs/#/Logs
 

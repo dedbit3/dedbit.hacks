@@ -29,7 +29,6 @@ LhKL1o9Nm3X2
 
 
 
-
 L7Rv00A8TuwJAr67kITxxcSgnIk25Am/
 
 L7Rv00A8TuwJAr67kITxxcSgnIk25Am/
@@ -38,8 +37,7 @@ L7Rv00A8TuwJAr67kITxxcSgnIk25Am/
 jacob password:
 Decrypted password: 595mO8DmwGeD
 
-*holly fuck that took me a minute*
-
+*holly  that took me a minute*
 
 
 [package]
@@ -52,7 +50,6 @@ can sudo -l
 
 
 CVE-2025-27591
-
 
 
 jacob ssh password:

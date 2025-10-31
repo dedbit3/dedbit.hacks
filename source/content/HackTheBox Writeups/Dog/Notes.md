@@ -1,12 +1,12 @@
 ___
 
 
+# User
+
 
 Powered by [Backdrop CMS](https://backdropcms.org)
 
-
 apache [2.4.41]
-
 
 
 .git directory was found
@@ -76,6 +76,8 @@ $S$E/F9mVPgX4.dGDeDuKxPdXEONCzSvGpjxUeMALZ2IjBrve9Rcoz1
 database password works on johncusack user
 
 
+# Root
+
 
 *this is prob its*
 
@@ -88,8 +90,6 @@ Matching Defaults entries for johncusack on dog:
 User johncusack may run the following commands on
         dog:
     (ALL : ALL) /usr/local/bin/bee
-
-
 
 
 *this got me root*

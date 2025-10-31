@@ -135,7 +135,7 @@ sha256:50000:MmQxNDllNWZiZDFiMjBjZjMxZGIzZTNjNmEyOGZjOWIK:Y2JhMjBjY2Y5MjdkM2FkMD
 
 
 
-# this script cracked it so bullshit:
+# this script cracked it:
 
 # this is what chatGPT said
 ### **Why Does Your Python Script Seem Faster?**

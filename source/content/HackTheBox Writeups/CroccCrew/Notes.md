@@ -1,12 +1,12 @@
 ___
 
+# User
+
 
 Microsoft Windows Active Directory LDAP (Domain: COOCTUS.CORP0.
 
-
 80/tcp    open  http          syn-ack ttl 125 Microsoft IIS httpd 10.0
 looks like theres a cve for this
-
 
 commonName=DC.COOCTUS.CORP
 
@@ -30,7 +30,6 @@ look at webpage sources / network requests  -> nothing interesting here
 
 TRACE request is enabled it accepts a query parameter 
 need a file and variable name to be able to query how tf do I find that
-
 
 
 subdomains???

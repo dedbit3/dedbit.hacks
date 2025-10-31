@@ -99,7 +99,7 @@ xmllint --xpath "//*[local-name()='field'][@var='Username']/*[local-name()='valu
 
 
 ASAP roast vuln
-*while I was doing this bullshit kerbrute found this*
+*while I was doing this  kerbrute found this*
 2025/09/04 17:55:42 >  [+] mlowe has no pre auth required. Dumping hash to crack offline:
 $krb5asrep$18$mlowe@JAB.HTB:60ecba9ac3a9dd097eb0641639b45da1$93c5b7fe74db1ba958d670b0e460ce36d22a4905d7bc26fc31aebf68c1bc84c0ff66a3ea831d2fec2a107786c7f2f76675af70f0867f8e6cc83638cf69a6dec76df32f4bf55f38674b7c7f11b1c1bf84a01601657be344bf72bd96f8731d044c6cc2be6ff8a09e47500b65dc3159e127df2f6949011a4d92e165824365427118df852ec8a1da4bf96162dd0fdc02a1555ce78e6987ecd4e1ceb78825348ad08c9e346048c76ba25fbeda7e48b85a359132a4b8ff513b3a8021bad056a1b32877f5d50843fc81f31a600b24574579c55e262e41e206da596d4ff1286bf4909f29e476a48631ef8fc0780ef1bf0adb3578d4aecbe8a9c8
 
@@ -152,7 +152,7 @@ SMB         10.10.11.4      445    DC01             [+] jab.htb\svc_openfire:!@#
 
 
 
-got a shell holly fucking shit
+got a shell holly  
 
 
 

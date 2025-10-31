@@ -129,7 +129,7 @@ PASSFILE is for crushadmin
 
 nginx is directly serving  the soulmate.htb website
 
-also serving crushFTP through port 9090 on localhost -> so wtf r others
+also serving crushFTP through port 9090 on localhost -> so what are others
 
 
 

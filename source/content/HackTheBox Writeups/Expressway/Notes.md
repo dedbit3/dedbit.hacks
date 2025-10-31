@@ -12,7 +12,7 @@ express? expressway, user, adm, admin
 
 
 
-fuckkkkk there was a udp port my scan completely didn't catch
+omg there was a udp port my scan completely didn't catch
 
 
 

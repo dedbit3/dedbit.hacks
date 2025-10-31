@@ -1,7 +1,6 @@
 ___
 
 
-
 linux machine
 
 port 80 and 22 ssh the web server is nginx
@@ -12,13 +11,11 @@ port 80 and 22 ssh the web server is nginx
 jeremy@previous.htb
 
 
-*this box is running next-js is gonna have shit to do with it*
+*this box is running next-js is gonna have  to do with it*
 
 
 http%3A%2F%2Flocalhost%3A3000%2Fdocs
 http://localhost:3000/docs
-
-
 
 
 *interesting callback redirects to localhost if /api but get prompted to login*
@@ -28,7 +25,6 @@ burp see where login post is
 
 dirsearch
 check .git
-
 
 
  *I think this gonna b cve*
@@ -50,7 +46,7 @@ curl --request GET \
 this works I bypass auth
 
 
-*okay time to start reading those files under _next -> some interesting shit*
+*okay time to start reading those files under _next -> some interesting stuff*
 
 
 
@@ -144,7 +140,7 @@ see a next.js project structure
 *try to read this file to find the root*
 
 
-I think it could be on /home/nextjs or /home/node as well but then wtf is the project name?
+I think it could be on /home/nextjs or /home/node as well but then what is the project name?
 
 
 *can I read the nginx conf file?*
@@ -330,7 +326,7 @@ x-middleware-subrequest: middleware:middleware:middleware:middleware:middleware
 
 
 
-/docs is a fucking slug
+/docs is a slug
 
 /docs/[section]
 
@@ -452,7 +448,7 @@ at least with the user agent this did not work
 
 
 
-*this is the path holly fucking shit this was a fkn trip*
+*this is the path holly  this was a fkn trip*
 GET /api/download?example=../../../../../../../../../app/.next/server/pages/api/auth/[...nextauth].js
 
 

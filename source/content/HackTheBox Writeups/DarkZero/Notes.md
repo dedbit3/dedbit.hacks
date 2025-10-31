@@ -1,6 +1,7 @@
 ___
 
 
+# User
 
 *this is interesting service account I think*
 darkzero\darkzero-ext$ (SidTypeUser)
@@ -9,17 +10,16 @@ darkzero\darkzero-ext$ (SidTypeUser)
 darkzero\SQLServer2005SQLBrowserUser$DC01 (SidTypeAlias)
 
 
-
 *this is probs it for foothold*
 1433/tcp  open  ms-sql-s      syn-ack ttl 127 Microsoft SQL Server 2022 16.00.1000.00; RTM
 
 
-*this is also intersting wtf is this*
+*this is also intersting what is this*
 2179/tcp  open  vmrdp?        syn-ack ttl 127
 
 
 
-john.w doesn't have shit in ad neither does he have intersting access to shares
+john.w doesn't have anything in ad neither does he have intersting access to shares
 
 
 
@@ -68,7 +68,6 @@ SQL (darkzero\john.w  guest@master)> EXEC ('SELECT SYSTEM_USER AS CurrentUser') 
 CurrentUser    
 ------------   
 dc01_sql_svc
-
 
 
 *worked on DC02*

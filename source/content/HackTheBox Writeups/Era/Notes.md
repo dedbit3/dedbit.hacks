@@ -1,18 +1,17 @@
 ___
 
 
-
+# User
 
 nginx 1.18.0 old version on port 80
 
 vsftpd on port 21 need creds -> maybe hydra??
 
 
-
 found subdomain -> file.
 
 
-I logged in with test:test on the first try like no fucking way
+I logged in with test:test on the first try like no way
 
 *login pass*
 test:test
@@ -27,10 +26,7 @@ test:test
 -try to come up with users from era.htb
 
 
-
-
 *need to find a way to run that .php rev shell*
-
 
 
 fuzzed /downloads.php?id=FUZZ
@@ -38,7 +34,6 @@ fuzzed /downloads.php?id=FUZZ
 got 2 zip files a username, a key
 
 try to log in with vsftpd
-
 
 
 *these 2 passes so far* 
@@ -62,7 +57,6 @@ can I access other things on the website with either yuri or eric??? -> doesn't 
 I can only read from ftp, is there anything interesting on that /build?? doesnt' look like it 
 what abt that private key from yuri wtf is that for
 -maybe reset or manage files check what the post req is <- doesn't seem I can do som
-
 
 
 *these look like the answer for the security login*
@@ -91,12 +85,8 @@ sqlite> pragma table_info("users")
 
 *register.php file in using query() method for sql
 
-![[Pasted image 20250803200854.png]]
-
-
 
 query is insecure -> prepare() should be used as it makes parameterized queries that are not vulnerable to sql injection
-
 
 
 so essentially that form is vulnerable to sql injection if I can bypass the user input filters
@@ -150,7 +140,6 @@ strace ./monitor 2>&1 | grep -iE 'open|access|no such file'
 
 
 
-
 *dumped processes with pspy*
 
 
@@ -193,7 +182,6 @@ objcopy --add-section .text_sig=text_sig_section.bin a.out monitor.wurk
 
 
 
-
-*fucking finally worked got root*
+*finally worked got root*
 
 

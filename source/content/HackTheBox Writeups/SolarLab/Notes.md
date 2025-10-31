@@ -141,7 +141,7 @@ CREATE MEMORY TABLE PUBLIC.OFUSER(USERNAME VARCHAR(64) NOT NULL,STOREDKEY VARCHA
 
 
 
-*fuck this*
+*whta is this*
 
 INSERT INTO OFPROPERTY VALUES('passwordKey','hGXiFzsKaAeYLjn',0,NULL)
 
@@ -154,7 +154,7 @@ You have new mail.
 
 
 
-I was using the fucking wrong password for decryption it was in a separate entry in the script password with the name -> 
+I was using the  wrong password for decryption it was in a separate entry in the script password with the name -> 
 
 INSERT INTO OFPROPERTY VALUES('passwordKey','hGXiFzsKaAeYLjn',0,NULL)
 

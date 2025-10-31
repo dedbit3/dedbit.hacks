@@ -85,7 +85,7 @@ SQLPAD_CONNECTIONS__devdbdriverid123__filename = "./test/fixtures/sales.sqlite"
 
 
 
-in /opt wtf is yarn there is version there as well
+in /opt what is yarn there is version there as well
 
 
 
@@ -96,11 +96,11 @@ node
 
 
 
-in /opt wtf is yarn there is version there as well
+in /opt what  is yarn there is version there as well
 
 
 
-in /opt wtf is yarn there is version there as well
+in /opt what  is yarn there is version there as well
 
 
 
@@ -151,14 +151,14 @@ michael
 
 
 
-*wtf is this dir*
+*whta is this dir*
 
 drwxr-x--- 2 root  root  4.0K May 15  2024 froxlor.panel
 drwxr-x--- 2 10000 10000 4.0K May 15  2024 web1
 michael@sightless:/var/customers/tmp$ cd web1
 
 
-wtf is var customers
+what is var customers
 
 
 
@@ -250,7 +250,7 @@ User				proftpd
 
 *used the restart php-fmp service command in the admin pannel to read the root ssh key file*
 
-*bro this box was kinda fucked*
+*bro this box was kinda messed up*
 
 
 

@@ -2,6 +2,7 @@ ___
 
 ## Nmap Summary
 
+```
 Scanned at 2024-11-07 16:46:18 EST for 296s
 Not shown: 65517 filtered tcp ports (no-response)
 PORT      STATE SERVICE       REASON          VERSION
@@ -58,11 +59,12 @@ Read data files from: /usr/bin/../share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 295.92 seconds
            Raw packets sent: 131188 (5.772MB) | Rcvd: 255 (18.641KB)
+```
 
 
 ---
 
-# enum4linux enum (no user/no passwd)
+# Enum4linux enum (no user/no passwd)
 
 └> sudo enum4linux-ng 10.10.11.174             
 [sudo] password for ew: 
@@ -200,8 +202,6 @@ Server type string: 'failed on directory /var/lib/samba/private/msg.sock: No suc
 [-] Could not parse result of enumprinters command, please open a GitHub issue
 
 
----
----
 ---
 
 # Enum4linux-ng (random user no password)

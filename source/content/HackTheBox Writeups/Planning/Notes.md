@@ -10,11 +10,11 @@ preliminary feroxbuster nothing found
 *3 inputs on the site*  <- check this out
 
 1) search box -> nothing i think
-2) enroll now -> 500 error if i put some random shit on phone number
+2) enroll now -> 500 error if i put some random stuff on phone number
 3) contact page -> nothing i think not even send
 
 
-fucking finally
+ finally
 
 theres a grafana subdomain
 
@@ -24,10 +24,8 @@ grafana.planning.htb <- use creds given here
 
 
 
-
 CVE-2024-9264
 *RCE for this versions of grafana*
-
 
 
 # env
@@ -52,12 +50,10 @@ GF_PATHS_CONFIG=/etc/grafana/grafana.ini
 AWS_CW_LIST_METRICS_PAGE_LIMIT=500
 
 
-
 *with these creds I can log into ssh*
 
 
-
-*wtf r these creds*
+*what r these creds*
 
 enzo@planning:/opt/crontabs$ cat crontab.db 
 {"name":"Grafana backup","command":"/usr/bin/docker save root_grafana -o /var/backups/grafana.tar && /usr/bin/gzip /var/backups/grafana.tar && zip -P P4ssw0rdS0pRi0T3c /var/backups/grafana.tar.gz.zip /var/backups/grafana.tar.gz && rm /var/backups/grafana.tar.gz","schedule":"@daily","stopped":false,"timestamp":"Fri Feb 28 2025 20:36:23 GMT+0000 (Coordinated Universal Time)","logging":"false","mailing":{},"created":1740774983276,"saved":false,"_id":"GTI22PpoJNtRKg0W"}
@@ -69,44 +65,33 @@ enzo@planning:/opt/crontabs$ cat crontab.db
 theres some cron jobs running  -> run linpeas i feel like thats the priv esc
 
 
-netstat also shows som shit running + theres mysql database
+netstat also shows something running + theres mysql database
 
 
     proxy_pass http://grafana.planning.htb:3000/;
 
 
-so wtf is that other port 8000 info
-something is running on port 8000 that I need to auth, maybe port forward this shit
-
+so what is that other port 8000 info
+something is running on port 8000 that I need to auth, maybe port forward this 
 
 
 
 *idk abt this*
 
-╔══════════╣ Checking if containerd(ctr) is available
-╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#containerd-ctr-privilege-escalation
+══════════╣ Checking if containerd(ctr) is available
+ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#containerd-ctr-privilege-escalation
 ctr was found in /usr/bin/ctr, you may be able to escalate privileges with it
 ctr: failed to dial "/run/containerd/containerd.sock": connection error: desc = "transport: error while dialing: dial unix /run/containerd/containerd.sock: connect: permission denied"
 
 Found readable /etc/mysql/my.cnf
 
 
-
-
- ╔══════════╣ Searching tmux sessions
-╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#open-shell-sessions
+Searching tmux sessions
 tmux 3.4
-
-
 /tmp/tmux-1000
 
 
-
-                            ╔═════════════════════════╗
-════════════════════════════╣ Other Interesting Files ╠════════════════════════════
-                            ╚═════════════════════════╝
-╔══════════╣ .sh files in path
-╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#scriptbinaries-in-path
+ Other Interesting Files  .sh files in path
 /usr/bin/gettext.sh
 
 

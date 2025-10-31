@@ -26,8 +26,6 @@ https://github.com/robiso/bike
 
 
 
-
-
 "password": "$2y$10$iOrk210RQSAzNCx6Vyq2X.aJ\/D.GuE4jRIikYiWrD3TM\/PjDnXm4q",
 
 
@@ -64,7 +62,7 @@ tcp        0      0 127.0.0.1:55733         0.0.0.0:*               LISTEN
 
 google chrome in /opt
 
-*port forward that shit + linpeas.sh*
+*port forward that  + linpeas.sh*
 
 
 *amay signs in localhost:8080*
@@ -116,20 +114,13 @@ Binary file /var/log/journal/bc3805e3e6b449d38bd0a698ebf1ae9c/user-1000.journal 
  *this is prob running as root*
 
 
-
-
-
 *system monitor running as root I can read any file but only 21 lines bruvs*
 #21 lines
-
-
 
 
 *how do i get geo -> can read any file but what file to read???*
 
 system monitor is prob running from root files r there
-
-
 
 
 mychemicalromance

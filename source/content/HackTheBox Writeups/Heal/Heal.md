@@ -29,7 +29,6 @@ CSP -> content security policy
 
 
 
-
 # ralph appears to be a user on the machine
 
 
@@ -111,10 +110,7 @@ https://www.limesurvey.org/manual/Installation_security_hints
 
 
 
-
-
-*web socket shit*
-
+*web socket*
 
 
 

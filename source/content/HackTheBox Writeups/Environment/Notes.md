@@ -1,13 +1,12 @@
 ___
 
+# User
 
 *this probs has CVE's* <====
 
 _http-server-header: nginx/1.22.1
 
-
 environment.htb © 2025 | Production v1.1
-
 
 
 keep getting redirected to this sosrcery site
@@ -43,7 +42,6 @@ gitea running
  ftp:
     restart: always
     image: million12/vsftpd:cd94636
-
 
 
 
@@ -94,10 +92,10 @@ X-Powered-By: Next.js
 ETag: "a55nbiihm11jl"
 Content-Length: 2001
 
+```
 <!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><title>405: Method Not Allowed</title><meta name="next-head-count" content="3"/>
 
-
-
+```
 
 
 *i can probs do sql injection in either the passkey or the login fields*
@@ -116,38 +114,29 @@ has to be a cipher injection into neo4j right? like thats the database thats run
 
 
 
-
-
 *FUZZ parameters into http://environmnet.htb*
 
 
 
+*These are all the pages from fuzzing*
 
-*these r all the pages from fuzzing*
-
-
-200      GET        1l       27w     1713c http://environment.htb/build/assets/styles-Bl2K3jyg.css                                                          
-
-200      GET        1l      119w     4111c http://environment.htb/build/assets/login-CnECh1Us.css                                                            
-
-200      GET       54l      174w     2391c http://environment.htb/login                                                                                      
-
-405      GET     2575l     8675w   244841c http://environment.htb/mailing                                                                                    
-200      GET       87l      392w     4602c http://environment.htb/                                                                                           
+```
+200      GET        1l       27w     1713c http://environment.htb/build/assets/styles-Bl2K3jyg.css                    
+200      GET        1l      119w     4111c http://environment.htb/build/assets/login-CnECh1Us.css                      
+200      GET       54l      174w     2391c http://environment.htb/login         
+405      GET     2575l     8675w   244841c http://environment.htb/mailing
+200      GET       87l      392w     4602c http://environment.htb/
 301      GET        7l       11w      169c http://environment.htb/storage => http://environment.htb/storage/                                                
-
 301      GET        7l       11w      169c http://environment.htb/storage/files => http://environment.htb/storage/files/                                    
-
-405      GET     2575l     8675w   244839c http://environment.htb/upload                                                                                    
-200      GET       50l      135w     2126c http://environment.htb/up                                                                                                                                                                                                                       
+405      GET     2575l     8675w   244839c http://environment.htb/upload         
+200      GET       50l      135w     2126c http://environment.htb/up             
 302      GET       12l       22w      358c http://environment.htb/logout => http://environment.htb/login  
-
 301      GET        7l       11w      169c http://environment.htb/vendor => http://environment.htb/vendor/
+```
 
 
 
-
-*got an error coming  here*
+*Got an error coming  here*
 http://environment.htb/upload
 
 -> can post to here
@@ -157,14 +146,12 @@ http://environment.htb/upload
 
 
 
-
 Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException
 
 
 *versions*
 
 PHP 8.2.28 — Laravel 11.30.0
-
 
 
 

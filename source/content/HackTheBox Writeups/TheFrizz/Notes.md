@@ -172,7 +172,7 @@ gibbonPersonID: 0000000001
 *hashcat command*
 hashcat -m 1420 f.frizzle.hash --wordlist ~/Documents/wordlists/rockyou.txt
 
-why tf did it work with 1420 ?? should it not b 1410??? i put the salt at the end wtf
+why tf did it work with 1420 ?? should it not b 1410??? i put the salt at the end 
 
 
 
