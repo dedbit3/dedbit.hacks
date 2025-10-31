@@ -9,8 +9,11 @@ Here are all the listings in this folder:
 
 README
 --
-## [[/HackTheBox Writeups/🧭 README]|🧭 README]
+## [[/HackTheBox Writeups/🧭 README]]
 
+# [[/HackTheBox Writeups/🧭 README]]
+
+## [[/HackTheBox Writeups/🧭 README| 🧭 README  ]]
 Vault Index
 ---
 [[/HackTheBox Writeups/🏦 Vault Index]]
