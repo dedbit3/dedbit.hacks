@@ -7,11 +7,27 @@ Hack The Box: Notes Index
 
 Here are all the listings in this folder:
 
+README
+--
 [[/HackTheBox Writeups/🧭 README]]
+
+Vault Index
+---
 [[/HackTheBox Writeups/🏦 Vault Index]]
+
+Index
+--
 [[/HackTheBox Writeups/Index]]
+
+Administrator Stats
+--
 [[/HackTheBox Writeups/Administrator/Administrator]]
+
+Administrator Notes
+--
 [[/HackTheBox Writeups/Administrator/Notes]]
+
+
 [[/HackTheBox Writeups/Alert/Alert]]
 [[/HackTheBox Writeups/Alert/Notes]]
 [[/HackTheBox Writeups/Artificial/Artificial]]
