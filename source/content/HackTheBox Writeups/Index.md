@@ -9,7 +9,7 @@ Here are all the listings in this folder:
 
 README
 --
-[[/HackTheBox Writeups/🧭 README]]
+## [[/HackTheBox Writeups/🧭 README]|🧭 README]
 
 Vault Index
 ---
@@ -27,8 +27,12 @@ Administrator Notes
 --
 [[/HackTheBox Writeups/Administrator/Notes]]
 
-
+Administrator Stats
+---
 [[/HackTheBox Writeups/Alert/Alert]]
+
+Administrator Stats
+---
 [[/HackTheBox Writeups/Alert/Notes]]
 [[/HackTheBox Writeups/Artificial/Artificial]]
 [[/HackTheBox Writeups/Artificial/Notes]]
