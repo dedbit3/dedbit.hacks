@@ -15,12 +15,12 @@ Feel free to look around and explore!
 
 Explore the site by category:
 
-[[🧭 README]]
-[[🏦 Vault Index]]
-[[/Game Of Active Directory (GOAD)/index|GOAD Index]]
-[[/HackTheBox Writeups/index|HTB Writeups Index]]
-[[/OSCP Cheatsheet/index|OSCP Cheatsheet Index]]
-[[/Tools/index|Tools Index]]
+## [[/HackTheBox Writeups/🧭 README| 🧭 README ]]
+## [[/HackTheBox Writeups/🏦 Vault Index| 🏦 Vault Index ]]
+## [[/Game Of Active Directory (GOAD)/index| 🛡️ GOAD Index ]]
+## [[/HackTheBox Writeups/index| 📚 HTB Writeups Index ]]
+## [[/OSCP Cheatsheet/index| 📘 OSCP Cheatsheet Index ]]
+## [[/Tools/index| 🧰 Tools Index ]]
 
 
 > **Disclaimer:** The content on this site reflects my personal research, opinions, and learning experiences in cybersecurity. It is intended for educational purposes only. Any techniques or tools discussed should be used responsibly and ethically, and only in authorized environments.

@@ -7,5 +7,11 @@ Tools: Notes Index
 
 Here are all the listings in this folder:
 
-[[/Tools/Index]]
-[[/Tools/GitRepos]]
+## [[/Tools/Index| 📚 Tools Index ]]
+## [[/Tools/GitRepos| 🗂️ Git Repos ]]
+
+
+
+
+
+
