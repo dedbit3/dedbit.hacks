@@ -16,7 +16,7 @@ Here are all the listings in this folder:
 ## [[/HackTheBox Writeups/Alert/Notes| ⚠️ Alert Notes ]]
 ## [[/HackTheBox Writeups/Artificial/Artificial| 🤖 Artificial Stats ]]
 ## [[/HackTheBox Writeups/Artificial/Notes| 🤖 Artificial Notes ]]
-## [[/HackTheBox Writeups/Backfire/Backfire| 🔥 Backfire Stats ]]
+## [[/HackTheBox Writeups/Backfire/Backfire| 🔥 Backfire Notes ]]
 ## [[/HackTheBox Writeups/Cap/Cap| 🧢 Cap Stats ]]
 ## [[/HackTheBox Writeups/Cap/Notes| 🧢 Cap Notes ]]
 ## [[/HackTheBox Writeups/Cat/Cat| 🐱 Cat Stats ]]
