@@ -7,7 +7,7 @@ Ansible Commands
 
 Installing Ansible required roles and collections:
 
-`ansible-galaxy install -r requirements.yml
+`ansible-galaxy install -r requirements.yml`
 
 Running Ansible Playbooks:
 
